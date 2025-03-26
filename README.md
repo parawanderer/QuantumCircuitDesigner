@@ -9,7 +9,7 @@ User-friendly drag-and-drop PoC application that allows you to design and "simul
 ## 📄 Paper: `Understanding and Simulating Quantum Circuits`
 This project currently comes coupled with [an introductory paper](./doc/Understanding_and_Simulating_Quantum_Circuits.pdf) which — while not particularly achieving anything revolutionary — could serve as a pretty nice, beginner-friendly introduction to **Quantum Algorithms** (& **Quantum Circuits**) and the current state of this technology, as well as its (potential & future) value, particularly from the point of view of somebody who has a generalist Software Engineering background.
 
-### "TL;DR" (kind of)
+### "TL;DR" (kind of) 😅
 Quantum algorithms are essentially series of ordered special matrix operations, where we limit ourselves to the "types" of matrices that are allowed to be used (because by doing so, we get to work with very useful properties).
 
 A bunch of special (and scary-looking) notation is used to describe the matrices/vectors & operations (think stuff like `|φ>`, `|001>` `|0>|1>`, `|01> ⊗ H₂` etc.), which ultimately all comes down to being shorthand to represent arrays/vectors & matrix multiplications and matrix operations (linear algebra) — multiplying rows by columns etc. You can do quantum algorithms without this notation, but you'd be writing some very ugly matrices and arrays containing mostly `0`'s everywhere if you did.
@@ -32,7 +32,7 @@ In other words, if you actually execute your algorithm on a quantum computer/chi
 Quantum algorithms try to accomplish interesting and useful things with this mechanism, which in a lot of cases allows them to accomplish *more things in less steps*. Here, steps are interpreted in the Big-Oh sense, but where one matrix multiplication is just a single step in a quantum computer/chip!
 
 
-#### If it's just multiplying matrices... then why the diagram?
+### If it's just multiplying matrices... then why the diagram? 🧐
 
 The diagram — called a "Quantum Circuit" — is a shorthand for representing the ordered matrix operations. It is useful because the vectors and matrices used in useful quantum algorithms are exponential in size (`2^N` input & output vector, `2^N * 2^N` operation matrices).
 
@@ -60,7 +60,7 @@ Going back to the UI-screenshot at the top of this README:
 
 For a more comprehensive overview, I'd point you towards the paper (it's 10 pages and has a bunch of pictures 😃!) and/or some of the reference books linked to in the references list of the paper.
 
-You will need to know Linear Algebra, but it's not really anything too radical/complex once you remember what mathematical notation/symbol represents what operation.
+You will need to know Linear Algebra, but it's not really anything too radical/complex once you memorize what mathematical notation/symbol represents which operation.
 
 ----------------
 
