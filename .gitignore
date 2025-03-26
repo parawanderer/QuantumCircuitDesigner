@@ -1,0 +1,19 @@
+.idea
+__pycache__
+.pytest_cache
+.env
+.venv
+.vscode
+build
+dist
+
+# paper
+doc/*.synctex.gz
+doc/*.out
+doc/*.log
+doc/*.fls
+doc/*.fdb_latexmk
+doc/*.blg
+doc/*.bbl
+doc/*.aux
+doc/*.toc
