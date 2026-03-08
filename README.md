@@ -1,8 +1,5 @@
 # Quantum Circuit Designer & Simulator
 
-User-friendly drag-and-drop PoC application that allows you to design and "simulate"/evaluate the "execution results" of Quantum Circuits.
-
-
 ![Quantum Circuit Designer UI screenshot](./assets/screenshot_09_04_2024.png)
 
 
