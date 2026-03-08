@@ -9,7 +9,7 @@ An interactive, purely functional quantum circuit prototyping tool and simulatio
 Unlike standard educational visualizers, this tool was engineered to compute the underlying linear algebra of quantum state evolution, providing a robust bridge between high-level circuit design and low-level matrix mechanics.
 
 * **Unitary Transformation Engine:** Dynamically compiles sequential and concurrent gate applications into system-level unitary matrices ($U^\dagger U = I$), ensuring strict adherence to the normalization constraint across deep circuits.
-* **Pure State Simulation Backend:** Executes state-vector propagation for multi-qubit systems, natively handling entanglement (e.g., Bell State generation) and interference without classical approximation.
+* **Pure State Simulation Backend:** Executes state-vector propagation for multi-qubit systems, natively handling entanglement (e.g., Bell State generation) and interference.
 * **Dynamic Controlled Operations:** Implements algorithmic decomposition for $n$-qubit controlled gates, computing $M_{q_j=|0\rangle}$ and $M_{q_j=|1\rangle}$ conditionally to apply transformations without rank-collapse.
 
 ## Extensibility: The NISQ Roadmap
